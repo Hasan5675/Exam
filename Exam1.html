@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Examstyle.css">
+    <title></title>
+</head>
+<body>
+    <div id="headerform">
+        <h1 id="Header">Kill The Monster</h1>
+    </div>
+    <div style="padding-top: 10px;">
+        <div style="display: flex;align-items: center;justify-content: space-around;">
+        <div id="Monster">
+            <label class="lables">Monster Health</label>
+            <div style="padding-top: 5px;"><div class="monsterborder" >
+                <div id="bordercolor"></div>
+        </div></div>
+        </div></div>
+        <div style="display: flex;align-items: center;justify-content: space-around;padding-top: 4px;">
+        <div id="Your">
+            <label class="lables">Your Health</label>
+        <div style="padding-top: 5px;"> <div  class="yourborder"> 
+                <div id="Yourbordercolor"></div>
+            </div></div>
+    </div></div>
+    </div>
+    <div style="padding-top: 15px;">
+        <div style="display: flex;justify-content: center;">
+            <input class="clickbuttonA" type="button" value="Attack" onclick="Attac()"/>
+     <input class="clickbuttonB" type="button" value="Special Attack" onclick="Special()" /></div>
+        <div style="display: flex;justify-content: center;padding-top: 10px;" >
+            <input class="clickbuttonc" type="button" value="Heal" onclick="Heal()"/>
+        <input class="clickbuttonsD" type="button" value="Give Up" onclick="Give()"/></div>
+    </div>
+    <div style="display: flex;justify-content: center;border-radius: 10px;padding-top: 5px;">
+    <div class="StartGame" >
+        <label class="Gamefir">Game Over!</label>
+        <label class="Gamesec">You won!</label>
+        <div style="padding-top: 5px;"><input class="Startbu" type="button" value="Start New Game"></div>
+    </div></div>
+    <div style="display: flex;justify-content: center;padding-top: 5px;"><div class="Battle">
+        <label id="BattleLog">Battle Log</label>
+        <div id="battlelogg">
+        </div>
+    </div></div>
+    <script src="./script.js"></script>
+</body>
+</html>

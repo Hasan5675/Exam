@@ -1,0 +1,135 @@
+#Header{
+    text-align: center;
+        color: white;
+        font-family: Franklin Gothic Medium;
+        font-size:23px;
+        display: flex;
+        justify-content: center;
+        padding-top: 16px;
+}
+#headerform{
+    background-color: #800000;
+        height: 60px;
+}
+.lables{
+    font-family: Franklin Gothic Medium;
+    font-size: 20px;
+    
+}
+#Monster{
+    display: flex;
+    flex-direction: column;
+        align-items: center;
+        border: 1px solid #e6e6fa;
+        height: 10vh;
+            width: 55vh;
+            border-radius: 10px;
+}
+.monsterborder{
+    
+    border: 1px solid gray;
+        width: 52vh;
+        height: 5vh;
+}
+#bordercolor{
+    background: #008B8B;
+    height: 5vh;
+    width: 100%;
+}
+.yourborder{
+border: 1px solid gray;
+    width: 52vh;
+    height: 5vh;
+}
+#Yourbordercolor{
+background: #008B8B;
+    height: 5vh;
+    width: 100%;
+}
+#Your{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 4px;
+        height: 10vh;
+            width: 55vh;
+            border-radius: 10px;
+            border: 1px solid #e6e6fa;
+            
+}
+.clickbuttonA{
+    width: 12%;
+        border-radius: 9px;
+        height: 38px;
+        background-color: #800080;
+        color: white;
+        border-color:#800080 ;
+        margin-right: 11px;
+}
+.clickbuttonsD{
+    width: 12%;
+    border-radius: 9px;
+    height: 38px;
+    background-color: #800080;
+    color: white;
+    border-color: #800080;
+    
+}
+.clickbuttonc {
+    width: 12%;
+    border-radius: 9px;
+    height: 38px;
+    background-color: #800080;
+    color: white;
+    border-color: #800080;
+    margin-right: 11px;
+}
+.clickbuttonB {
+    width: 12%;
+    border-radius: 9px;
+    height: 38px;
+    background-color: #800080;
+    color: white;
+    border-color: #800080;
+
+}
+.pad{
+    padding-right: 5px;
+}
+.StartGame{
+    display: flex;
+    border: 1px solid #e6e6fa ;
+    flex-direction: column;
+        width: 32vh;
+        align-items: center;
+}
+.Gamefir{
+    font-family: Franklin Gothic Medium;
+        font-size: 20px;
+        padding-top: 5px;
+}
+.Gamesec{
+font-family: Franklin Gothic Medium;
+    font-size: 15px;
+    padding-top: 5px;
+}
+.Startbu{
+    padding-top: 5px;
+        width: 23vh;
+            height: 5vh;
+            border-radius: 5px;
+            background-color: #800080;
+            color: white;
+}
+.Battle{border:1px solid #e6e6fa;
+display: flex;
+width: 40vh;
+display: flex;
+    width: 40vh;
+    height: 32vh;
+    justify-content: center;
+}
+#BattleLog{
+    font-family: Franklin Gothic Medium;
+    font-size: 20px;
+}
