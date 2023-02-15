@@ -34,7 +34,7 @@
 #bordercolor{
     background: #008B8B;
     height: 5vh;
-    width: 100%;
+    
 }
 .yourborder{
 border: 1px solid gray;
@@ -44,7 +44,7 @@ border: 1px solid gray;
 #Yourbordercolor{
 background: #008B8B;
     height: 5vh;
-    width: 100%;
+    
 }
 #Your{
     display: flex;
