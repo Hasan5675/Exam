@@ -3,6 +3,7 @@ function Attac() {
     count =0
     let Monsterhealth = document.getElementById("bordercolor");
     let Yourhealth = document.getElementById("Yourbordercolor");
+    let yourbuttle=document.getElementById("battlelogg");
     const myArray = Monsterhealth.style.width.split("%");
     let maxMonster = myArray[0];
   const myArray2= Yourhealth.style.width.split("%");
@@ -13,8 +14,9 @@ function Attac() {
     let HealtDescrease = Math.floor(Math.random() * (maxYour));
     
     
-    Monsterhealth.style.width=MonsterDescrease + "%";
-    Yourhealth.style.width=HealtDescrease + "%";
+    let x=Monsterhealth.style.width=MonsterDescrease + "%";
+    let y=Yourhealth.style.width = HealtDescrease + "%";
+    yourbuttle.innerHTML = "<p>Master attacks and deals " + x + "player heas himself for" + y+"</p>";
 }
 function Special() {
     count =0
@@ -53,6 +55,7 @@ function Heal() {
         let healthFinal = parseInt(maxYour) +parseInt(HealtDescrease)
         console.log(healthFinal)
         Yourhealth.style.width = healthFinal + "%";
+        console.log(maxHeal)
     }
 }
 function Start() {
